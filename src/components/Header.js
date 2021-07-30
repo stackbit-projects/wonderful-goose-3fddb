@@ -99,9 +99,6 @@ export default class Header extends React.Component {
                         <div className="site-branding">
                             {logoImage && (
                                 <p className="site-logo">
-                                    <Link href={withPrefix('/')}>
-                                        <img src={withPrefix(logoImage)} alt={logoImageAlt} />
-                                    </Link>
                                 </p>
                             )}
                             {pageTemplate === 'landing' || pageTemplate === 'blog' ? (
