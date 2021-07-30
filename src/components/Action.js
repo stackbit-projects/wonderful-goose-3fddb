@@ -34,7 +34,6 @@ export default class Action extends React.Component {
                 })}
             >
                 {hasIcon && <Icon icon={actionIcon} />}
-                <span className={classNames({ 'order-first': actionIconPos === 'right' })}>{label}</span>
             </Link>
         );
     }
